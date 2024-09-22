@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+:root {
+    --grey: #808080;
+    --blood: #FF0000;
+    --green: #7FFF00;
+    --pink:  #FFB6C1;
+    --sun: #FFD700;
+    --hollow: #9f149f;
+    --aqua: #00FFFF;
+    --orange: #FFA500;
+    --dark: #000000;
+    --border: #ECECEC;
+    --perfect: #6574fa ;
+}
+
+.container{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.content{
+    text-decoration: none;
+    display: block;
+    color: #000000;
+}
+.backtainer{
+    text-decoration: none;
+    display: block;
+    color: #000000;
+    border-radius: 20px;
+}
+.header {
+    padding: 10px 0;
+}
+.btn-category{
+    cursor: pointer;
+    border-color: var(--border);
+}
+.btn-back{
+    height: 10px;
+    cursor: pointer;
+    border:solid 0px;
+    padding: 4px;
+    padding-top: 1px;
+    padding-right: 2;
+    min-width: 2px;
+    border-color: var(--border);
+    border-radius: 10px;
+    position: relative;
+    text-align: left;
+}
+
+.mobile-block {
+    min-height: 1vh;
+    width: 100%;
+}
+.mobile-block-head2{
+    inline-size: 10vh;
+}
+.mobile-block_header {
+    padding: 1px 0;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: var(--border);
+    text-align: center;
+}
+.mobile-block_header2 {
+    padding: 2px ;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 15px;
+    color: var(--border);
+}
+.mobile-block_header3 {
+    padding: 1px 0;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: var(--border);
+}
+.is-hollow {
+    background-color: var(--hollow);
+}
+.is-aqua {
+    background-color: var(--aqua);
+    color: var(--dark);
+}
+.is-blood {
+    background-color: var(--blood);
+    color: var(--dark);
+}
+.is-sun {
+    background-color: var(--sun);
+    color: var(--dark);
+}
+.is-green {
+    background-color: var(--green);
+    color: var(--dark);
+}
+.is-pink {
+    background-color: var(--pink);
+    color: var(--dark);
+}
+.is-perfect {
+    background-color: var(--perfect);
+    color: var(--dark);
+}
+.Base-card {
+    text-decoration: none;
+    display: block;
+    color: #000000;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 20px;
+}
+.Menu-card {
+    text-decoration: none;
+    display: block;
+    color: #000000;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 20px;
+}
+.GIF-card {
+    text-decoration: none;
+    display: block;
+    color: #000000;
+    padding: 10vh;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 20px;
+}
+.Menu-card {
+    text-decoration: none;
+    display: block;
+    color: #000000;
+    padding: 1px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 1px;
+}
+.Menu-cont-card {
+    padding: 100px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 20px;
+}
+/* ________________________________________________1-страница_________________________________________________________*/
+.Base-card__title {
+    text-decoration: none;
+    display: block;
+    color: #000000;
+    font-size: 25px;
+    margin-bottom: 12px;
+    color: var(--border)
+}
+.Base-card__category {
+    margin-bottom: 12px;
+    font-size: 18px;
+    color: var(--hollow)
+}
+/* _______________________________________________2-страница___________________________________________________________ */
+.Info-card__title {
+    font-size: 25px;
+    margin-bottom: 12px;
+    color: var(--perfect)
+}
+.Info-card__title2 {
+    font-size: 25px;
+    margin-bottom: 12px;
+    color: var(--blood)
+}
+.Info-card__title3 {
+    font-size: 25px;
+    margin-bottom: 12px;
+    color: var(--aqua)
+}
+.Info-card__title4 {
+    font-size: 25px;
+    margin-bottom: 12px;
+    color: var(--pink)
+}
+.Info-card__category {
+    margin-bottom: 12px;
+    font-size: 18px;
+    color: var(--border)
+}
+/* ______________________________________________3-страница_____________________________________________________________ */
+.Info2-card__title {
+    font-size: 25px;
+    margin-bottom: 12px;
+    color: var(--blood)
+}
+.Info2-card__category {
+    margin-bottom: 12px;
+    font-size: 18px;
+    color: var(--border)
+}    
+/* _______________________________________________Задние-фоны___________________________________________________________ */
+.is-fone {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../images/GOJO_GETO.gif");
+    background-size: cover;
+    background-position:center;
+    color: var(--white);
+}
+.is-nekit{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../images/Curses.gif");
+    background-size: cover;
+    background-position:center;
+    color: var(--white);
+}
+.is-energy{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../images/Yuji_Cursed_Energy.webp");
+    background-size: cover;
+    background-position:center;
+    color: var(--white);
+}
+.is-weapons{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../images/Cursed_weapons.gif");
+    background-size: cover;
+    background-position:center;
+    color: var(--white);
+}
+.is-jujutsu{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../images/jujutsu.gif");
+    background-size: cover;
+    background-position:center;
+    color: var(--white);
+}
+.is-curses{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../images/curses2.gif");
+    background-size: cover;
+    background-position:center;
+    color: var(--white);
+}
+.is-info{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    background-size: cover;
+    background-position:center;
+    color: var(--white);
+}
+.is-sukuna{
+    background: linear-gradient(rgba(250, 250, 250, 0.6),rgba(255, 255, 255, 0.6)), url("../images/sukuna.png");
+    background-size: cover;
+    background-position:center;
+    color: var(--white);
+}
+.is-gojo{
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url("../images/Маги.jpg");
+    background-size: cover;
+    background-position:center;
+    color: var(--white);
+}
+.is-mahito{
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url("../images/mahito.jpg");
+    background-size: cover;
+    background-position:center;
+    color: var(--white);
+}
+.is-monkey{
+    background: linear-gradient(rgba(255, 255, 255, 0.6),rgba(255, 255, 255, 0.6));
+    background-size: cover;
+    background-position:center;
+    color: var(--dark);
+}
+.Sorcerers-card_title{
+    font-size: 22px;
+    color: var(--aqua)
+}
+.back {
+    height: 160vh;
+    background-image: url("../images/back.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.loading-detail {
+    padding: 25px;
+}
+.loading-card {
+    padding: 12px 0;
+    margin: 0px;
+}
+.skeleton-title, .skeleton-text {
+    width: 100%;
+    background-color: var(--green);
+    border-radius: 20px;
+    animation: ghost 1s infinite linear;
+}
+.skeleton-title {
+    padding: 20px;
+    height: 120px;
+}
+.skeleton-big-text {
+    height: 220px;
+}
+.skeleton image {
+    height: 200px;
+}
+@keyframes ghost {
+    0% {
+        background-color: var(--green);
+    }
+    50% {
+        background-color: var(--aqua);
+    }
+    100% {
+        background-color: var(--sun);
+    }
+}
+.error {
+    background-color: var(--blood);
+    min-height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--border);
+}
+.error-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.error-description {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.white-btn {
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    background-color: var(--blood);
+    color: var(--blood);
+}
